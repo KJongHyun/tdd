@@ -1,4 +1,4 @@
-package chapter1
+package chapter4
 
 class Dollar(private var amount: Int) {
 
