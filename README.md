@@ -6,3 +6,17 @@ TDD의 리듬
 4. 모든 테스트를 실행하고 전부 성공하는지 확인한다.
 5. 리팩토링을 통해 중복을 제거한다.
 
+## Chapter.1 다중 통화를 지원하는 Money 객체
+>$5 + 10CHF = $10(환율이 2:1일 경우)  
+**$5 X 2 = $10**  
+amount를 private으로 만들기  
+Dollar 부작용(side effect)?  
+Money 반올림?  
+
+
+## Chapter.2 타락한 객체
+## Chapter.3 모두를 위한 평등
+## Chapter.4 프라이버시
+## Chapter.5 솔직히 말하자면
+## Chapter.6 돌아온 '모두를 위한 평등'
+## Chapter.7 사과와 오렌지

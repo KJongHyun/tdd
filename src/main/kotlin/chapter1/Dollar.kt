@@ -1,9 +1,9 @@
 package chapter1
 
-class Dollar(private var amount: Int) {
+class Dollar(var amount: Int) {
 
-    fun times(multiplier: Int): Dollar {
-        return Dollar(this.amount * multiplier)
+    fun times(multiplier: Int) {
+        this.amount *= multiplier
     }
 
     override fun equals(other: Any?): Boolean {
