@@ -6,9 +6,4 @@ class Dollar(var amount: Int) {
         this.amount *= multiplier
     }
 
-    override fun equals(other: Any?): Boolean {
-        return if (other is Dollar) this.amount == other.amount
-        else false
-    }
-
 }
